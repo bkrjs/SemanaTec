@@ -23,7 +23,6 @@ def line(start, end):
 
 
 def square(start, end):
-    """Draw square from start to end."""
     up()
     goto(start.x, start.y)
     down()
