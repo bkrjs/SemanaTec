@@ -6,7 +6,6 @@ Cannon, hitting targets with projectiles.
 
 from random import randrange
 from turtle import *
-
 from freegames import vector
 
 ball = vector(-200, -200)
@@ -19,8 +18,8 @@ def tap(x, y):
     if not inside(ball):
         ball.x = -199
         ball.y = -199
-        speed.x = (x + 200) / 25
-        speed.y = (y + 200) / 25
+        speed.x = (x + 200) / 10
+        speed.y = (y + 200) / 10
 
 
 def inside(xy):
@@ -63,7 +62,7 @@ def move():
     for target in dupe:
         if abs(target - ball) > 13:
             targets.append(target)
-
+x
     draw()
 
     for target in targets:
