@@ -34,7 +34,7 @@ Pacman,&nbsp;classic&nbsp;arcade&nbsp;game.</tt></p>
     
 <tr><td bgcolor="#55aa55"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
 <td width="100%"><strong>aim</strong> = vector(5, 0)<br>
-<strong>ghosts</strong> = [[vector(-160, 160), vector(-5, 0)], [vector(-165, -160), vector(5, 0)], [vector(95, 160), vector(0, -5)], [vector(45, -160), vector(-5, 0)]]<br>
+<strong>ghosts</strong> = [[vector(-175, 160), vector(-10, 0)], [vector(-180, -170), vector(0, 10)], [vector(100, 80), vector(0, -10)], [vector(15, -160), vector(-10, 0)]]<br>
 <strong>pacman</strong> = vector(30, -80)<br>
 <strong>path</strong> = &lt;turtle.Turtle object&gt;<br>
 <strong>state</strong> = {'score': 4}<br>
