@@ -1,13 +1,12 @@
-"""Memory, puzzle game of number pairs.
-
-Exercises:
-
-1. Count and print how many taps occur.
-2. Decrease the number of tiles to a 4x4 grid.
-3. Detect when all tiles are revealed.
-4. Center single-digit tile.
-5. Use letters instead of tiles.
 """
+Authors: Authors: Rebeca Rojas Pérez A01751192
+         Juan Carlos Jiménez Tapia A01750115
+Memory, puzzle game of number pairs.
+"""
+
+#To answer whether the game can be improved by changing the numbers for other thing,
+# maybe words woulb be make easier to improve visual attention to details and 
+# text-space association.
 
 from random import *
 from turtle import *
@@ -80,7 +79,8 @@ def draw():
     if mark is not None and hide[mark]:
         x, y = xy(mark)
         up()
-        goto(x + 2, y)
+        # x + 10 to center the text
+        goto(x + 10, y)
         color('black')
         write(tiles[mark], font=('Arial', 30, 'normal'))
 
