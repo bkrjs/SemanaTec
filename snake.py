@@ -30,7 +30,7 @@ def inside(head):
 
 
 def move():
-    """Move snake forward one segment."""
+    """Move snake forward one segment and food one step at a time."""
     head = snake[-1].copy()
     head.move(aim)
     #Move food randomly 1 step at a time
