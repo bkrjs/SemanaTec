@@ -1,11 +1,13 @@
 """
 Authors: Authors: Rebeca Rojas Pérez A01751192
          Juan Carlos Jiménez Tapia A01750115
+         
 Cannon, hitting targets with projectiles.
 """
 
 from random import randrange
 from turtle import *
+
 from freegames import vector
 
 ball = vector(-200, -200)
@@ -18,8 +20,8 @@ def tap(x, y):
     if not inside(ball):
         ball.x = -199
         ball.y = -199
-        speed.x = (x + 200) / 10
-        speed.y = (y + 200) / 10
+        speed.x = (x + 200) / 15
+        speed.y = (y + 200) / 15
 
 
 def inside(xy):
@@ -50,7 +52,7 @@ def move():
         targets.append(target)
 
     for target in targets:
-        target.x -= 0.5
+        target.x -= 1
 
     if inside(ball):
         speed.y -= 0.35
@@ -62,7 +64,7 @@ def move():
     for target in dupe:
         if abs(target - ball) > 13:
             targets.append(target)
-x
+
     draw()
 
     for target in targets:

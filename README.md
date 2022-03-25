@@ -11,6 +11,7 @@
 ><font color="#ffffff" face="helvetica, arial"><a href=".">index</a><br><a href="file:/Users/rebecarojas/Desktop/SemanaTec/SemanaTec/cannon.py">/Users/rebecarojas/Desktop/SemanaTec/SemanaTec/cannon.py</a></font></td></tr></table>
     <p><tt>Authors:&nbsp;Authors:&nbsp;Rebeca&nbsp;Rojas&nbsp;Pérez&nbsp;A01751192<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Juan&nbsp;Carlos&nbsp;Jiménez&nbsp;Tapia&nbsp;A01750115<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>
 Cannon,&nbsp;hitting&nbsp;targets&nbsp;with&nbsp;projectiles.</tt></p>
 <p>
 <table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
@@ -30,7 +31,7 @@ Cannon,&nbsp;hitting&nbsp;targets&nbsp;with&nbsp;projectiles.</tt></p>
 <font color="#ffffff" face="helvetica, arial"><big><strong>Data</strong></big></font></td></tr>
     
 <tr><td bgcolor="#55aa55"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
-<td width="100%"><strong>ball</strong> = vector(-23.0, -98.1)<br>
-<strong>speed</strong> = vector(8.8, 1.72)<br>
-<strong>targets</strong> = []</td></tr></table>
+<td width="100%"><strong>ball</strong> = vector(-200, -200)<br>
+<strong>speed</strong> = vector(0, 0)<br>
+<strong>targets</strong> = [vector(171, -68)]</td></tr></table>
 </body></html>
