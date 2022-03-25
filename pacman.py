@@ -126,7 +126,7 @@ def move():
     goto(pacman.x + 10, pacman.y + 10)
     dot(20, 'yellow')
 
-    #move ghosts in a "smart" way
+    #move ghosts in a "smart" way by changing the ghost's trayectory randomly
     for point, course in ghosts:
         if randint(0,4) == 3:
             options = [
